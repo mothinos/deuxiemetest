@@ -1,0 +1,118 @@
+
+header
+{
+	height: 70px;
+	background-color: #2e4f84;
+	display: flex; 
+	flex-wrap: wrap;/*pour que le responcive passe les dernier au dessous en mini page*/
+	justify-content: space-around; /*prend tout lea place sur la largeur*/
+}
+
+/*header a
+{
+	width: 150px;
+	vertical-align: middle;
+}
+*/
+header div
+{
+	margin: auto;
+	background-color: #2e4f84;
+}
+
+header a 
+{
+/*margin:10px;*/
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background:url(image/boutonnoir.png) no-repeat;
+color:white;
+text-decoration:none;
+}
+
+header a:hover
+ {
+background:url(image/boutonnoir2.png) no-repeat;
+}
+
+
+
+#tuto
+{
+	background:url("image/html5.png") no-repeat;
+	background-size: 150px 150px;
+	margin-top: 75px;
+	width: 150px;
+	height: 150px;
+	border: solid #3A5E6B 5px;
+}
+
+
+.relative 
+{
+  position: relative;
+  width:500px;
+  height: 200px;
+  z-index: 2;
+}
+
+.absolute {
+	position: absolute;
+	top: 570px;
+	left: 113px;
+	width: 300px;
+	height: 200px;
+	z-index: 1;
+}
+
+
+.relative:hover
+{
+z-index: 1;
+}
+
+.absolute:hover
+{
+	z-index: 2;
+}
+
+
+/*#html a
+{
+	border: 20px solid #5B7AFF;
+}
+
+#html a:hover
+{
+	color: red;
+	background-color: #3A5E6B;
+	border: 20px solid #3A5E6B;
+}
+
+#css a:hover
+{
+	font-size: 2em;
+	color: red;
+	/*background-color: yellow;
+}
+#css:hover
+{
+	background-image: none;
+}
+
+#js a:hover
+{
+	font-size: 2em;
+	color: red;
+	background-color: yellow;
+}
+
+#sql a:hover
+{
+	font-size: 2em;
+	color: red;
+	background-color: yellow;
+}*/
